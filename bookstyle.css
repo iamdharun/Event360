@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #222;
+    color: white; /* Set text color to white */
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    max-width: 400px;
+
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.booking-form {
+    background-color: #333; /* Darker background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label,
+input,
+textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    background-color: #444; /* Darker background for input fields */
+    color: white; /* Set text color to white */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #3867d6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #3867d6;
+}

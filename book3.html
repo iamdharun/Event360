@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bookstyle.css">
+    <title>Organizing a Concert</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Create your Concert</h1>
+        <div class="booking-form">
+            <form action="booksuccess.html" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Your Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="band">Band/Artist Name:</label>
+                <input type="text" id="band" name="band" required>
+
+                <label for="date">Event Date:</label>
+                <input type="date" id="date" name="date" required>
+
+                <label for="venue">Venue Name:</label>
+                <input type="text" id="venue" name="venue" required>
+
+                <label for="message">Additional Message(if any):</label>
+                <textarea id="message" name="message"></textarea>
+
+                <input type="submit" value="Book Now">
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
